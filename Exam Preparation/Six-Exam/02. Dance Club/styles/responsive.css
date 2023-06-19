@@ -1,0 +1,107 @@
+@media (width <= 800px) {
+
+    header {
+        max-width: 100%;
+        height: auto;
+    }
+
+    header nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header div {
+        padding: 0;
+    }
+
+    main .trainings {
+        flex-direction: column;
+    }
+
+    main .trainings div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .trainings p {
+        font-size: 12px;
+        text-align: center;
+        width: 300px;
+    }
+
+    main .instructors .instructors-pic {
+        padding-left: 10em;
+    }
+
+    .classes ul {
+        padding: 0.5em;
+    }
+
+    .classes  ul li {
+        width: 50%;
+        padding-right: 2em;
+        font-size: 10px;
+    }
+
+    .getInTouch {
+        flex-direction: column;
+    }
+
+    .getInTouch .form {
+        width: 50%;
+
+    }
+
+    .getInTouch form p {
+        width: 100%;
+    }
+
+    .getInTouch form input {
+        width: 100%;
+    }
+
+    .getInTouch form textarea {
+        width: 100%;
+    }
+
+    .getInTouch .map {
+        width: 100%;
+        padding-bottom: 3em;
+    }
+
+    .site-footer {
+        display: flex;
+    }
+
+    .site-footer .wrapper {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .site-footer .wrapper .about hr{
+        background-color: #272727;
+    }
+
+    .site-footer .wrapper .sitemap {
+        align-self: flex-start;
+        width: 40%;
+    }
+
+    .site-footer .wrapper .contacts {
+        align-self: flex-end;
+        position: absolute;
+        top: 50%;
+    }
+}

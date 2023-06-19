@@ -1,0 +1,23 @@
+body{
+    padding: 5px;
+    color: #5c6e91;
+    background-color: #e4e978;
+    width: 700px;
+    margin: 15px;
+}
+.special{
+    padding: 15px;
+    background-color: #f2f4c0;
+    width: 700px;
+    font-style: italic;
+    border: 1px solid #b2ad7d;
+    margin: 10px;
+}
+.normal{
+    padding: 15px;
+    width: 700px;
+    background-color: #f2f4c0;
+    border: 1px solid #b2ad7d;
+    margin: 10px;
+    color:black;
+}

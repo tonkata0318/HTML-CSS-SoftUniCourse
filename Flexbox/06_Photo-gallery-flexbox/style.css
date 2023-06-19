@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: center;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+.gallery ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.gallery ul li{
+    border: 6px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.gallery ul li img{
+    width: 200px;
+}

@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    display: flex;
+    gap: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+}
+
+header nav ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+header nav ul li svg {
+    fill: #4f5771;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    float: right;
+    word-spacing: 2em;
+    padding: 1em 3em 0.5em 1em;
+    margin-bottom: 2em;
+}
+
+main .first_section {
+    display: flex;
+    background: url(image/slider.jpg);
+    background-size: 100% auto;
+    height: 800px;
+}

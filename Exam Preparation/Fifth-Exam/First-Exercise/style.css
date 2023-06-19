@@ -1,0 +1,81 @@
+@import url("https://fonts.google.com/specimen/Courgette");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Courgette', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font-style: oblique;
+}
+
+h2 {
+    text-align: center;
+    padding-left: 8em;
+    color: #ca2837;
+    font-style: oblique;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 0 0 100%;
+    gap: 1em;
+}
+
+main .box {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 25%;
+    border-radius: 1em;
+    width: 25em;
+    height: 25em;
+    overflow: hidden;
+}
+
+main .box h3 {
+    align-self: center;
+    padding: 0.5em 0em 0.5em 0em;
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+main .box hr {
+    align-self: center;
+    width: 90%;
+    height: 0.3em;
+    background-color: #ecacaf;
+}
+
+main .box p {
+    align-self: center;
+    padding: 0.5em;
+    text-align: center;
+}
+
+main .box a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #72605a;
+    gap: 0.3em;
+}
+
+main .box a svg{
+    align-self: center;
+    margin-top: 0.1em;
+    fill: #ca1c25;
+}
+
+main:nth-child(1) a {
+    padding-top: 1em;
+}

@@ -1,0 +1,109 @@
+@media (width <= 600px) {
+
+    body {
+        margin: 0;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    .left-to-right:first-child {
+        padding: 30px;
+        width: 100%;
+        height: 580px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .left-to-right article {
+        border-radius: 20%;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    main .left-to-right article button {
+        display: none;
+    }
+
+    main .left-to-right article p {
+        text-align: left;
+        padding: 0em 2em 0em 2em;
+        font-size: 14px;
+    }
+
+    main .left-to-right article header p {
+        padding: 0;
+        font-size: 20px;
+    }
+
+    main .left-to-right article header h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    main section:nth-child(2) {
+        flex-direction: column;
+        padding-left: 2em;
+    }
+
+    main section:nth-child(2) article header {
+        text-align: left;
+    }
+
+    main section:nth-child(2) article header h1 {
+        font-size: 32px;
+    }
+
+    main section:nth-child(2) article header p {
+        font-size: 20px;
+    }
+
+    main section:nth-child(2) article button {
+        display: none;
+    }
+
+    main section:nth-child(2) article p {
+        font-size: 20px;
+    }
+
+    main section:nth-child(2) article img {
+        width: 100%;
+        height: 100%;
+    }
+
+    main section.left-to-right:nth-child(3) {
+        padding: 0;
+        width: 100%;
+        height: 580px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section.left-to-right:nth-child(3) article {
+        height: 320px;
+        width: 340px;
+        padding-bottom: 1em;
+    }
+
+    main section.left-to-right:nth-child(3) header h1 {
+        font-size: 24px;
+    }
+    
+    main section.left-to-right:nth-child(3) header p {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    main section:nth-child(4) {
+        padding: 2em;
+        flex-direction: column;
+    }
+
+    main section:nth-child(4) img {
+        align-items: center;
+    }
+}

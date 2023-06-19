@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    height: 600px;
+    justify-content: center;
+}
+.container{
+    display: flex;
+}
+img{
+    width: 5em;
+    height: 10em;
+    border-radius: 0.5em;
+    margin: 2px;
+    align-self: center;
+}
+img:hover{
+    width: 100%;
+    background-color: black;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+}

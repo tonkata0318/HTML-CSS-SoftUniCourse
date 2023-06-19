@@ -1,0 +1,22 @@
+@media (max-width:600px) {
+    header nav {
+        display: none;
+    }
+    .site-main {
+        margin: 0;
+    }
+    .site-main .site-logos{
+        display: flex;
+        height: 600px;
+        width: auto;
+    }
+    .site-main .site-logos .site-logos-container{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       justify-content: flex-start;
+       align-items: flex-start;
+       margin-left: 1em;
+
+    }
+}

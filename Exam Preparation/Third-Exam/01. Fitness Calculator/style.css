@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-top: 2em;
+    display: flex;
+    font-family: 'Open Sans';
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+main .first_section {
+    width: 50%;
+}
+
+main .second_section {
+    width: 50%;
+    background-color: #f6f7f8;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+main img {
+    width: 100%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+    filter: brightness(70%);
+}
+
+main .second_section h1{
+    font-weight: normal;
+    align-self: center;
+    padding: 1em;
+}
+
+main .second_section .buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+main .second_section .buttons .first_button button{
+    width: 10em;
+    height: 2.5em;
+    background-color: rgb(136, 220, 100);
+    border-radius: 1em;
+}
+
+main .second_section .buttons .second_button button{
+    width: 10em;
+    height: 2.5em;
+    background-color: rgb(224, 224, 223);
+    border-radius: 1em;
+}
+
+main .second_section label {
+    align-self: center;
+    font-weight: bold;
+    padding: 1em;
+}
+
+main .second_section .gender_section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+main .second_section .gender_section select {
+    position: relative;
+    width: 13em;
+    margin-left: 3em;
+}
+
+main .second_section .gender_section input {
+    margin-right: 2em;
+}
+
+main .second_section .weight_text {
+    width: 80%;
+    align-self: center;
+}
+
+main .second_section .height_section {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 1em 3em 1em;
+}
+
+main .second_section .height_section input {
+    width: 45%;
+}
+
+main .second_section .height_section input:nth-child(1) {
+    margin-left: 1em;
+}
+
+main .second_section .height_section input:nth-child(2) {
+    margin-right: 1em;
+}
+
+main .second_section .calculator_button {
+    background-color: rgb(5, 162, 211);
+    color: rgb(235, 248, 253);
+    width: 90%;
+    height: 2em;
+    align-self: center;
+    border: none;
+    border-radius: 1em;
+    font-size: 16px;
+}

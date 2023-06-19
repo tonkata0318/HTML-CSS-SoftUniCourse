@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*,*::after,*::before {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1600px;
+    
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+    color: #d6dbdd;
+}
+
+.up svg {
+    fill: #e3d9c5;
+}
+
+header {
+    background-image: url("image/computer-main.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    height: 500px;
+}
+
+header .main h1 {
+    font-size: 48px;
+    color: #fff;
+    padding: 1em;
+}
+
+header .main h3 {
+    color: #fff;
+    font-size: 21px;
+    max-width: 460px;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+header .main button{
+    display: inline-block;
+    width: 8em;
+    height: 2.5em;
+    color: #fff;
+    background-color: #00d08e;
+    border: none;
+    margin-bottom: 3em;
+}
+
+header .main button:hover {
+    background-color: #d6dbdd;
+    border: 3px solid #fff;
+}
+
+header .main p {
+    margin: 1em;
+    color: #e1f2f2;
+}
+
+header .main p svg {
+    padding-left: 2em;
+    fill: #e1f2f2;
+}

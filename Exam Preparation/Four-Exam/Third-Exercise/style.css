@@ -1,0 +1,226 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap');
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer aside";
+    height: auto;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+}
+header {
+    position: relative;
+    background-image: url(image/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header .top-left-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    height: 12em;
+    width: 12em;
+    padding-left: 1em;
+    border-radius: 0.2em;
+    border: 1px solid gray;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+}
+
+header .top-left-box h1 {
+    padding-top: 0.2em;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+header .top-left-box hr {
+    width: 70%;
+    height: 0.5em;
+    color: white;
+    background-color: white;
+    margin: 1em 0em 1em 0em;
+}
+
+header .top-left-box h2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+header .right-center-box {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 35%;
+    right: 2%;
+    border: 1px solid black;
+    height: 20em;
+    width: 25em;
+    background-color: rgb(165, 156, 149);
+    color: rgb(230, 232, 220);
+}
+
+header .right-center-box svg {
+    margin: 2em 1em 1em 1em;
+    height: 2em;
+    fill: rgb(141, 133, 129);
+}
+
+header .right-center-box p {
+    align-self: flex-start;
+    margin-left: 3em;
+    height: 100%;
+    width: 70%;
+    font-size: 20px;
+    color: #e6e8dc;
+    text-align: end;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f0f3;
+    height: 500px;
+    padding: 3em;
+}
+
+main h1 {
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin: 0.5em;
+}
+
+main .box {
+    padding: 1em;
+}
+
+main .box span {
+    font-size: 24px;
+    padding-left: 0.5em;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f2f0f3;
+    
+}
+
+footer h1 {
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-size: 32px;
+    padding-left: 2em;
+}
+
+footer hr {
+    width: 100%;
+    height: 0.5em;
+    background-color: #b5b4b5;
+    border: none;
+    margin-bottom: 2em;
+}
+
+footer .info {
+    display: flex;
+    padding-left: 4em;
+    width: 70%;
+    flex-wrap: wrap;
+    gap: 1em;
+    height: 2em;
+    margin-bottom: 3em;
+}
+
+footer .info span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+footer .enter_email {
+    display: flex;
+    padding-left: 4em;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+footer .enter_email input {
+    height: 3em;
+    width: 40%;
+    background-color: #bab1ad;
+    border-radius: 0.5em;
+    border: none;
+    padding-left: 1em;
+}
+
+footer .enter_email button {
+    width: 8em;
+    background-color: #617346;
+    border-radius: 0.5em;
+    border: none;
+    color: #bdc8c5;
+}
+
+aside {
+    background-color: #bab1ad;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    gap: 2em;
+    padding-top: 2em;
+}
+
+aside .aside-box {
+    flex-basis: 25%;
+    padding-left: 1em;
+}
+
+aside .aside-box h2 {
+    font-size: 62px;
+    color: #e9e6e5;
+    font-weight: normal;
+}
+
+aside .aside-box p {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+}

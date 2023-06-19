@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("images/background.png");
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(images/form-background.png);
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+    border-radius: 1em;
+}
+
+.form {
+    margin-left: 2em;
+    width: 50%;
+}
+
+.form * {
+    margin-bottom: 1em;
+}
+
+.form h1 {
+    font-weight: normal;
+    padding: 1em;
+}
+
+.form .names {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    height: 50px;
+}
+
+.form .names input {
+    width: 12em;
+    height: 2em;
+    border-radius: 1em;
+    border-color: rgb(236, 238, 237);
+}
+
+.form input {
+    width: 100%;
+    height: 2em;
+    border-radius: 1em;
+    border-color: rgb(236, 238, 237);
+}
+
+.form .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.form .checkbox input {
+    width: 10%;
+    height: 1em;
+}
+
+.form .button {
+    width: 100%;
+    text-align: center;
+}
+
+.form button {
+    text-transform: uppercase;
+    background-color: rgb(174, 60, 51);
+    color: rgb(216, 165, 159);
+    border-radius: 2em;
+    height: 3em;
+    width: 10em;
+    border: none;
+}

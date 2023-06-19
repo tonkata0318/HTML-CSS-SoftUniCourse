@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.viewport {
+    height: 50vh;
+    background-color: #ccc;
+    overflow: hidden;
+    position: relative;
+}
+
+.card {
+    display: block;
+    width: 40%;
+}
+
+.card{
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+}
+
+svg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    padding-right: 3px;
+    padding-bottom: 6px;
+}

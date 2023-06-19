@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div, section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+body {
+    font: 10px/1.5 Verdana, sans-serif;
+}
+
+.container {
+    max-width: 65vw;
+    margin: 2em auto;
+    align-items: stretch;
+}
+
+.week span:nth-child(1),
+.week span:nth-child(7) {
+    flex-basis: 100%;
+}
+
+.week span:nth-child(8) {
+    order: 1;
+}
+
+.week span:nth-child(9) {
+    order: 2;
+}
+
+.week{
+    flex-wrap: wrap;
+}
+
+span{
+    display: block;
+    padding: 1em 1em;
+    flex-grow: 1;
+    border: 1px solid #000;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.notes {
+    align-items: stretch;
+}
+
+.notes span{
+    flex: 1 0 50%;
+}
+
+.week span:nth-child(7),
+.week span:nth-child(1),
+.week span:nth-child(2),
+.week span:nth-child(3),
+.week span:nth-child(4),
+.week span:nth-child(5),
+.week span:nth-child(6){
+    border-bottom: none;
+}

@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em 1em 4em;
+    background-color: white;
+}
+
+.header h4 {
+    align-self: center;
+}
+
+.header nav ul{
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    font-weight: bold;
+}
+
+.first_section {
+    display: flex;
+    background-color: aqua;
+
+}
+
+.first_section_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    padding:6em;
+}
+
+.first_section_content_content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.first_section_content_content h2 {
+    padding: 1em 1em 1em 0em;
+}
+
+.first_section_content_content p {
+    padding: 0em 1em 1em 0em;
+}
+
+.first_section_content_content_buttons {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+
+.first_section_content_content_buttons .donate {
+    width: 50%;
+    height: 3em;
+    background-color: white;
+    color: black;
+    border-radius: 0.7em;
+}
+
+.first_section_content_content_buttons .newsletter {
+    height: 3em;
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 0.7em;
+}
+
+.second_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_section h3 {
+    padding: 1em;
+}
+
+.second_section p {
+    padding: 0em 1em 1em 1em;
+}
+
+.second_section .containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 1em;
+    gap: 1em;
+}
+
+.second_section .containers .container {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.second_section .containers .container svg {
+    fill: aqua;
+}
+
+.third_section {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin-top: 2em;
+}
+
+.third_section h2 {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.third_section ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    gap: 3em;
+}
+
+.third_section .column {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.third_section svg {
+    padding-right: 1em;
+  
+}
+
+.third_section span {
+    text-align: right;
+}
+
+.third_section button {
+    margin-top: 2em;
+    height: 3em;
+    width: 16em;
+    background-color: black;
+    color: white;
+    border-radius: 0.7em;
+    border: none;
+}
+
+.animals_section h1{
+    text-align: center;
+    padding: 0.5em;
+    font-size: 42px;
+}
+
+.animals_section p {
+    text-align: center;
+    padding: 0 1em 1em 1em;
+}
+
+.pictures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding-bottom: 2em;
+}
+
+.pictures img {
+    width: 20%;
+}
+
+.work {
+    padding-bottom: 2em;
+}
+
+.work h3 {
+    text-align: center;
+    padding: 1em;
+}
+
+.work .containers {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.work .container {
+    width: 70%;
+    border: 1px solid gray;
+}
+
+.work .container h4 {
+    height: 3em;
+    padding: 1em;
+    background-color: aqua;
+}
+
+.work .container p {
+    height: 6em;
+    padding: 1em;
+}
+
+.last_section {
+    width: 100%;
+    display: flex;
+}
+
+.last_section img {
+    width: 50%;
+}
+
+.last_section_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.last_section_content_content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3em;
+}
+
+.last_section_content_content h2{
+    padding: 1em;
+}
+
+.last_section_content_content p {
+    padding: 0 1em 1em 1em;
+}
+
+.last_section_content_content input{
+    width: 50%;
+    padding: 1em;
+    margin: 1em;
+}
+
+.last_section_content_content button {
+    width: 35%;
+    padding: 1em;
+    margin: 1em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.7em;
+}
+
+footer {
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em 1em 4em;
+    background-color: white;
+}
